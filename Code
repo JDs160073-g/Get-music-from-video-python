@@ -1,0 +1,12 @@
+Install these two packages before starting using pip.
+# pip install moviepy
+# pip install ffmpeg
+
+Code starts after this line:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------4
+import moviepy.ediot as mp
+
+i=0
+i+=1
+video = mp.VideoFileClip(r"sample.mp4")
+video.auto.write_audiofile(r"audio"+i+".mp3")
